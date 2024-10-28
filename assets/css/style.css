@@ -1,0 +1,27 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+.centered-image {
+  width: 100%; /* Optional: set width as needed */
+}
+header {
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  background: #b3e2f4;
+  color: hsl(230, 93%, 16%);
+}
+header h2 {
+  text-align: left;
+}
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+}
+.flex-profile {
+  flex-basis: 600px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
